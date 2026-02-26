@@ -1,4 +1,5 @@
 Diamond Price Prediction using KNN & Streamlit
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 📌 Project Overview
 
 This project builds an end-to-end Machine Learning application to predict diamond prices using the K-Nearest Neighbors (KNN) Regressor.

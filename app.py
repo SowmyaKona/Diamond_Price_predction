@@ -2,7 +2,7 @@ import streamlit as st
 import pickle
 import numpy as np
 
-# Load model 
+# Load model  
 model = pickle.load(open("diamond_knn_model.pkl", "rb"))
 
 st.set_page_config(page_title="Diamond Price Prediction", layout="centered")
@@ -47,4 +47,5 @@ if st.button("Predict Price"):
     final_price = np.expm1(prediction[0])
     
     st.success(f"💰 Predicted Diamond Price: ${round(final_price, 2)}")
+
 
